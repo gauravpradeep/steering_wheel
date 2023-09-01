@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Arguments -->
+    <arg name="gui" default="true" />
+    <arg name="move_base" default="true" />
+    <arg name="slam" default="true" />
+    <arg name="controller" default="keyboard"/>
+    <arg name="model" default="$(find eve_description)/urdf/eve.urdf"/>
+    <param name="robot_description" textfile="$(arg model)"/>
+  <!-- Higher index in array is Higher Priority -->
+  <arg name="controllers" default="[PID, IMITATION_DRIVING, JOYSTICK, LOGITECH_STEERING]"/>
+ 
+  <!-- Interfacing -->
+  <node pkg="logitech_steering" name="logitech_steering_server" type="server_node" />
+
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+
+</launch>
