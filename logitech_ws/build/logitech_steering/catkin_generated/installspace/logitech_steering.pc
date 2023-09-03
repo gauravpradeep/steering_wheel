@@ -1,0 +1,8 @@
+prefix=/home/summer/eshaan/logitech_ws/install
+
+Name: logitech_steering
+Description: Description of logitech_steering
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -llogitech_interfacing -leve_nav
+Requires: message_runtime cv_bridge

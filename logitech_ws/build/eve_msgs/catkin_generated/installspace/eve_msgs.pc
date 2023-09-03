@@ -1,0 +1,8 @@
+prefix=/home/summer/eshaan/logitech_ws/install
+
+Name: eve_msgs
+Description: Description of eve_msgs
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

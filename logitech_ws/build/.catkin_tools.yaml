@@ -1,0 +1,6 @@
+devel_space: /home/summer/eshaan/logitech_ws/devel
+install: false
+install_space: /home/summer/eshaan/logitech_ws/install
+profile: default
+source_space: /home/summer/eshaan/logitech_ws/src
+workspace: /home/summer/eshaan/logitech_ws

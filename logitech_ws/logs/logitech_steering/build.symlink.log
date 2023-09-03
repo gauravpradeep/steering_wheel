@@ -1,0 +1,8 @@
+Symlinking /home/summer/eshaan/logitech_ws/devel/share/roseus/ros/logitech_steering/manifest.l
+Symlinking /home/summer/eshaan/logitech_ws/devel/share/logitech_steering/cmake/logitech_steeringConfig.cmake
+Symlinking /home/summer/eshaan/logitech_ws/devel/share/logitech_steering/cmake/logitech_steering-msg-extras.cmake
+Symlinking /home/summer/eshaan/logitech_ws/devel/share/logitech_steering/cmake/logitech_steering-msg-paths.cmake
+Symlinking /home/summer/eshaan/logitech_ws/devel/share/logitech_steering/cmake/logitech_steeringConfig-version.cmake
+Symlinking /home/summer/eshaan/logitech_ws/devel/lib/pkgconfig/logitech_steering.pc
+Symlinking /home/summer/eshaan/logitech_ws/devel/lib/python2.7/dist-packages/logitech_steering/__init__.py
+Symlinking /home/summer/eshaan/logitech_ws/devel/lib/logitech_steering/server_node
